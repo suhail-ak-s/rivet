@@ -40,7 +40,7 @@
     "test": "tsx --test test/**/*.test.ts"
   },
   "dependencies": {
-    "@ironclad/rivet-core": "workspace:^",
+    "@ironclad/rivet-core": "file:../core",
     "emittery": "^1.0.1",
     "emittery-0-13": "npm:emittery@^0.13.1",
     "lodash": "^4.17.21",
