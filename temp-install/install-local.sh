@@ -50,7 +50,7 @@ cd "$TARGET_PROJECT"
 if [ "$PACKAGE_MANAGER" = "yarn" ]; then
   yarn add "file:$RIVET_DIR/packages/core" "file:$RIVET_DIR/packages/node"
 elif [ "$PACKAGE_MANAGER" = "pnpm" ]; then
-  pnpm install "file:$RIVET_DIR/packages/core" "file:$RIVET_DIR/packages/node"
+  pnpm add "file:$RIVET_DIR/packages/core" "file:$RIVET_DIR/packages/node"
 else
   npm install "file:$RIVET_DIR/packages/core" "file:$RIVET_DIR/packages/node"
 fi
